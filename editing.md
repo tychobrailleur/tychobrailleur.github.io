@@ -33,6 +33,7 @@ Anything that’s “killed” is actually cut, and can be _yanked_ using `C-y`.
 # Delete and insert
 
 - `C-k` : kill text to the end of line
+- `C-w` : Kill [region](select.html)
 - `M-d`: Delete word
 
 

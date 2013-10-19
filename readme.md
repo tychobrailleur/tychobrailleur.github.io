@@ -13,6 +13,8 @@
 [Macros](macros.md) 
 ❧ [Shell](shell.md)
 ❧ [Regexp](regexp.md)
+❧ [Registers](registers.md)
+❧ [Bookmarks](bookmarks.md)
 
 # Packages
 
