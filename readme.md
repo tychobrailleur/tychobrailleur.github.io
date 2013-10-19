@@ -1,20 +1,15 @@
----
-title: Home page
-layout: home
----
-
 # Basics
 
-[Basics](basics.html) ❧ [Editing](editing.html) ❧ [Search](search.html) ❧ [Help](help.html)
+[Basics](basics.md) ❧ [Editing](editing.md) ❧ [Search](search.md) ❧ [Help](help.md)
 
 # Advanced
 
-[Macros](macros.html)
+[Macros](macros.md)
 
 # Packages
 
-[Helm](packages/helm.html)
+[Helm](packages/helm.md)
 
 # Resources 
 
-[Resources](resources.html)
+[Resources](resources.md)
