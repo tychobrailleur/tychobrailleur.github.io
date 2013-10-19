@@ -2,7 +2,7 @@
 
 A new file can be created in two ways:
 - Open a non-existing file from the command line with emacs: `$ emacs my_new_file`.  This will open a new empty buffer.
-- Create a new buffer in Emacs by typing `C-x b` name of the buffer `RET`.  This creates a new buffer you can edit.  You can then [save to a file](editing.md#Save).
+- Create a new buffer in Emacs by typing `C-x b` name of the buffer `RET`.  This creates a new buffer you can edit.  You can then [save to a file](editing.md#save).
 
 ### Save
 
