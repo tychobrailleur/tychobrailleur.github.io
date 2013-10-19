@@ -1,10 +1,18 @@
 # Basics
 
-[Basics](basics.md) ❧ [Editing](editing.md) ❧ [Select](select.md) ❧ [Buffers](buffer.md) ❧ [Windows and Frames](windows.md) ❧ [Search](search.md) ❧ [Help](help.md)
+[Basics](basics.md) 
+❧ [Editing](editing.md) 
+❧ [Select](select.md) 
+❧ [Buffers](buffer.md) 
+❧ [Windows and Frames](windows.md) 
+❧ [Search](search.md) 
+❧ [Help](help.md)
 
 # Advanced
 
-[Macros](macros.md) ❧ [Shell](shell.md)
+[Macros](macros.md) 
+❧ [Shell](shell.md)
+❧ [Regexp](regexp.md)
 
 # Packages
 
