@@ -1,0 +1,4 @@
+---
+title: AUCTeX
+layout: default
+---

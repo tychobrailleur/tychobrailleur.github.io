@@ -15,6 +15,7 @@
 ❧ [Regexp](regexp.md)
 ❧ [Registers](registers.md)
 ❧ [Bookmarks](bookmarks.md)
+❧ [Modes](modes.md)
 
 # Packages
 
