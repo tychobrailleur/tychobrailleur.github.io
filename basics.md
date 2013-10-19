@@ -18,4 +18,7 @@ For example, when a command is `C-x C-f`, you press `Control` and `x`, and then 
 - `C-x C-w`: Write file.
 - `C-x C-c` : Quit Emacs.
 
-All these key combinations are actually calling Emacs [commands](commands.md).  For example, `C-x C-f` runs the command `find-file`.
+All these key combinations are actually calling Emacs [commands](commands.md).  For example, `C-x C-f` runs the command `find-file`.  The key combination itself is called a [key binding](key-bindings.md).
+
+
+Next: [Editing](editing.md)
