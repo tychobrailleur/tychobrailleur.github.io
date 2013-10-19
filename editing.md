@@ -37,3 +37,5 @@ See also http://www.gnu.org/software/emacs/manual/html_node/emacs/Undo.html
 - `M-u` : uppercase word
 - `M-l` : lowercase word
 - `M-x center-line` : center the text on the line.
+
+Next: [Search](search.md)
