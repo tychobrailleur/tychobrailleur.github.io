@@ -1,14 +1,11 @@
 # Basics
 
-- [Basics](basics.md)
-- [Editing](editing.md) 
-- [Search](search.md)
-- [Help](help.md)
+[Basics](basics.md) ❧ [Editing](editing.md) ❧ [Search](search.md) ❧ [Help](help.md)
 
 # Packages
 
-- [Helm](packages/helm.md)
+[Helm](packages/helm.md)
 
 # Resources 
 
-- [Resources](resources.md)
+[Resources](resources.md)
