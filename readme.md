@@ -8,7 +8,7 @@
 
 # Packages
 
-[Helm](packages/helm.md)
+[Dired](packages/dired.md) ❧ [Helm](packages/helm.md) ❧ [Magit](packages/magit.md)
 
 # Resources 
 
