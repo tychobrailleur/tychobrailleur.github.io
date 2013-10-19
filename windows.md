@@ -26,5 +26,5 @@ Windows are different portions visible within the same UI “window”, whereas 
 
 To permanently hide the menubar and the toolbar, add the following to your `init` file:
 
-   (menu-bar-mode nil)
-   (tool-bar-mode nil)
+    (menu-bar-mode nil)
+    (tool-bar-mode nil)

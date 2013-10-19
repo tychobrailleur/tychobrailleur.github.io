@@ -4,11 +4,11 @@
 
 # Advanced
 
-[Macros](macros.md)
+[Macros](macros.md) ❧ [Shell](shell.md)
 
 # Packages
 
-[Dired](packages/dired.md) ❧ [Helm](packages/helm.md) ❧ [Magit](packages/magit.md)
+[Dired](packages/dired.md) ❧ [Helm](packages/helm.md) ❧ [Ido](packages/ido.md) ❧ [Magit](packages/magit.md)
 
 # Resources 
 
