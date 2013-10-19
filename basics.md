@@ -1,4 +1,3 @@
-
 ### Conventions
 Here are some common Emacs conventions:
 
@@ -10,4 +9,13 @@ Here are some common Emacs conventions:
 
 For example, when a command is `C-x C-f`, you press `Control` and `x`, and then `Control` and `f`.
 
-### 
+### Basic Commands
+
+- `C-x C-f` : Open ("Visit") a file
+- `C-x C-v RET` : Reload a file by finding it again.
+- `C-x k` : Close file ("Kill buffer")
+- `C-x C-s` : Save buffer changes to a file.
+- `C-x C-w`: Write file.
+- `C-x C-c` : Quit Emacs.
+
+All these key combinations are actually calling Emacs [commands](commands.md).  For example, `C-x C-f` runs the command `find-file`.
