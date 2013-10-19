@@ -1,6 +1,6 @@
 # Basics
 
-[Basics](basics.md) ❧ [Editing](editing.md) ❧ [Buffers](buffer.md) ❧ [Windows and Frames](windows.md) ❧ [Search](search.md) ❧ [Help](help.md)
+[Basics](basics.md) ❧ [Editing](editing.md) ❧ [Select](select.md) ❧ [Buffers](buffer.md) ❧ [Windows and Frames](windows.md) ❧ [Search](search.md) ❧ [Help](help.md)
 
 # Advanced
 
