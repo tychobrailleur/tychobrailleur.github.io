@@ -7,10 +7,18 @@
 
 ### Tutorials
 
-- http://www.unexpected-vortices.com/emacs/quick-ref.html
-- [Emacs Quick tour](http://www.gnu.org/software/emacs/tour/)
+Here are some of the best tutorials out there:
+
+- [ArchLinux Emacs Page](https://wiki.archlinux.org/index.php/emacs)
+- [Unexpected Vortices](http://www.unexpected-vortices.com/emacs/quick-ref.html)
+- [Emacs Quick Tour](http://www.gnu.org/software/emacs/tour/)
 - [Xah Emacs Tutorial](http://ergoemacs.org/emacs/emacs.html)
 
+
+### Wikis
+
+- [EmacsWiki](http://www.emacswiki.org/)
+- [WikEmacs](http://wikemacs.org)
 
 ### Blogs
 
