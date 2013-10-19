@@ -1,3 +1,8 @@
+---
+title: Editing
+layout: default
+---
+
 ### New File
 
 A new file can be created in two ways:
@@ -38,4 +43,4 @@ See also http://www.gnu.org/software/emacs/manual/html_node/emacs/Undo.html
 - `M-l` : lowercase word
 - `M-x center-line` : center the text on the line.
 
-Next: [Search](search.md)
+Next: [Search](search.html)

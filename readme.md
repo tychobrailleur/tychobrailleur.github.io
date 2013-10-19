@@ -1,13 +1,20 @@
-These are my Emacs pages, feel free to contribute by creating a PR on [github](https://github.com/tychobrailleur/tychobrailleur.github.com)
+---
+title: Home page
+layout: home
+---
 
-## Basics
+# Basics
 
-[Basics](basics.md) ❧ [Editing](editing.md) ❧ [Search](search.md) ❧ [Help](help.md)
+[Basics](basics.html) ❧ [Editing](editing.html) ❧ [Search](search.html) ❧ [Help](help.html)
 
-## Packages
+# Advanced
 
-[Helm](packages/helm.md)
+[Macros](macros.html)
 
-## Resources 
+# Packages
 
-[Resources](resources.md)
+[Helm](packages/helm.html)
+
+# Resources 
+
+[Resources](resources.html)

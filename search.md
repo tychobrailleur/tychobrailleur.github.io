@@ -1,3 +1,8 @@
+---
+title: Search
+layout: default
+---
+
 ### Search in a buffer
 
 - `C-s` is a forward incremental search

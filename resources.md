@@ -1,3 +1,8 @@
+---
+title: Resources
+layout: default
+---
+
 ### Official
 
 - [Emacs Manual](http://www.gnu.org/software/emacs/manual/html_node/emacs/index.html)

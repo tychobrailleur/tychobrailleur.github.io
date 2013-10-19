@@ -1,3 +1,8 @@
+---
+title: Basics
+layout: default
+---
+
 ### Conventions
 Here are some common Emacs conventions:
 
@@ -21,4 +26,4 @@ For example, when a command is `C-x C-f`, you press `Control` and `x`, and then 
 All these key combinations are actually calling Emacs [commands](commands.md).  For example, `C-x C-f` runs the command `find-file`.  The key combination itself is called a [key binding](key-bindings.md).
 
 
-Next: [Editing](editing.md)
+Next: [Editing](editing.html)

@@ -1,3 +1,8 @@
+---
+title: Macros
+layout: default
+---
+
 - `F3`, `C-x (`: Start defining a macro. 
 - `F4`, `C-x )`: Stop defining a macro. 
 - `F4`, `C-x e` : Execute a macro
