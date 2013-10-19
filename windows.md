@@ -1,5 +1,6 @@
 ---
 title: Windows and Frames
+layout: default
 ---
 
 Windows are different portions visible within the same UI “window”, whereas frames are actually separate UI “windows.”
