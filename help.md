@@ -1,3 +1,8 @@
+---
+title: Help
+layout: default
+---
+
 Here are some very useful help functions:
 
 - `C-h k`: displays what function is bound to the key sequence entered in the mini-buffer.
