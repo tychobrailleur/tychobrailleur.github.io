@@ -8,6 +8,15 @@ layout: default
 - `C-s` is a forward incremental search
 - `C-r` is a backward incremental search
 
+## Ibuffer
+
+In Ibuffer, you can select buffers to do an incremental search on them.  To mark buffers in the list, press `m`.
+
+Then:
+
+- `M-s a C-s`: Incremental search on marked buffers.  When the end of a buffer is reached (with `C-s`, it goes to the next marked one.  Once all the buffers have been searched, it rotates back to the first buffer.
+- `M-s a C-M-s`: Isearch for regexp in the marked buffers.
+
 ### Search and replace
 
 - `M-%`: `query-replace`
