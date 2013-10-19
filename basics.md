@@ -3,7 +3,7 @@ title: Basics
 layout: default
 ---
 
-### Conventions
+# Conventions
 Here are some common Emacs conventions:
 
 - `C-`: Control key
@@ -14,7 +14,7 @@ Here are some common Emacs conventions:
 
 For example, when a command is `C-x C-f`, you press `Control` and `x`, and then `Control` and `f`.
 
-### Basic Commands
+# Basic Commands
 
 - `C-x C-f` : Open ("Visit") a file
 - `C-x C-v RET` : Reload a file by finding it again.
@@ -25,5 +25,12 @@ For example, when a command is `C-x C-f`, you press `Control` and `x`, and then 
 
 All these key combinations are actually calling Emacs [commands](commands.md).  For example, `C-x C-f` runs the command `find-file`.  The key combination itself is called a [key binding](key-bindings.md).
 
+# Navigate
+
+- `C-a`: Go to the beginning of the line.
+- `C-e`: Go to the end of the line.
+- `M-<`: Go to beginning of [buffer](buffer.html).
+- `M->`: Go to end of [buffer](buffer.html).
+- `M-g M-g: `goto-line`, go to the line number.
 
 Next: [Editing](editing.html)

@@ -48,3 +48,4 @@ This creates a tag file that will to need to be visited when first searching for
 - `M-.`: search for a tag
 - `C-u M-.` : Find next match
 
+Next: [Select](select.html)
