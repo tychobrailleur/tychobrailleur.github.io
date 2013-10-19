@@ -1,6 +1,4 @@
-[Basics](basics.md)
-
-[Editing](editing.md) 
-
-[Search](search.md)
-
+- [Basics](basics.md)
+- [Editing](editing.md) 
+- [Search](search.md)
+- [Help](help.md)
