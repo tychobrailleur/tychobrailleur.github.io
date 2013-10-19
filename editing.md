@@ -26,6 +26,15 @@ Once CUA mode is active, copy-paste functions are bound to the usual keys:
 - `C-p`: Paste
 - `C-x`: Cut
 
+## Yank
+
+Anything that’s “killed” is actually cut, and can be _yanked_ using `C-y`.  You can cycle through the previous cut values using `M-y` after `C-y` as many times as you need.
+
+# Delete and insert
+
+- `C-k` : kill text to the end of line
+- `M-d`: Delete word
+
 
 # Undo-Redo
 
