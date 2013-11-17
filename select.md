@@ -17,7 +17,18 @@ To set the mark:
 - `C-u C-SPC`: go back to the previous mark.
 - `M-@`: set the mark after the end of the next word.
 - `M-h`: Mark paragraph
+- `C-M-h`: select current function, method, defun in programming.
 
-See [Emacs Manual](http://www.gnu.org/software/emacs/manual/html_node/emacs/Mark.html#Mark)
+
+See [Emacs Manual’s section about the mark](http://www.gnu.org/software/emacs/manual/html_node/emacs/Mark.html#Mark).  Also [“Moving by Defuns”](http://www.gnu.org/software/emacs/manual/html_node/emacs/Moving-by-Defuns.html).
 
 # Narrowing
+
+Narrow means only show a selected part of the buffer, which is very handy to focus on a specific part.
+
+- `C-x n n`: Narrow to the current region.
+- `C-x n w`: Widen again.
+- `C-x n d`: Narrow to the current function (`defun`)
+
+By default, the narrowing functions are disabled, as they are considered as _confusing_.  When you execute them the first time, you'll be prompted with a message asking you if you want to enable these functions.  You can then choose to permanently enable them.
+

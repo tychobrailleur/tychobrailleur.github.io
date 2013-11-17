@@ -1,0 +1,7 @@
+- imenu
+- search and replace in files (dired)
+- programming
+  - rails reloaded
+  - ecb
+- ido
+- auctex
