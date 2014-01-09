@@ -27,6 +27,10 @@ Then:
 - `M-%`: `query-replace`
 - `C-M-%`: `query-replace-regexp`
 
+## Search and Replace in several files
+
+- `M-x find-name-dired t Q`: Prompts for interactive query-replace in files
+  selected in dired.  Use `y` to accept replace. `C-x s !` to save all.
 
 # Match Parenthesis
 
