@@ -1,7 +1,7 @@
---
+---
 title: Rectangles
 layout: default
---
+---
 
 # What is a rectangle?
 
