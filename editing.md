@@ -66,6 +66,7 @@ See also the [Emacs Manual](http://www.gnu.org/software/emacs/manual/html_node/e
 - `M-u` : uppercase word
 - `M-l` : lowercase word
 - `M-x center-line` : center the text on the line.
+- `M-^`: join two lines, removing the extra space.
 - `C-t`: transpose character
 - `M-t`: transport words
 - `C-x C-t`: transpose lines
