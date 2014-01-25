@@ -23,3 +23,14 @@ A command is an interactive function, i.e. a function that can be called using `
 `C-x` uses a keymap where the bindings are defined.  This keymap is stored in
 `ctl-x-map`.  To see this map, just use `C-h v ctl-x-map`.  See
 [help](help.html) for more details on Help commands. 
+
+# Minibuffer
+
+Change `history-length` variable to incrase history size.  Default is 30.
+
+- `C-M-b`: Go to previous path separator;
+- `C-M-f`: Go to next path separator.
+- `M-p`: Also up arrow. Previous command in history.
+- `M-n`: Also down arrow.  Next command in history.
+- `C-r`: Search back in command in history
+- `M-x list-command-history`: List commands in history.
