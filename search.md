@@ -52,4 +52,9 @@ This creates a tag file that will to need to be visited when first searching for
 - `M-.`: search for a tag
 - `C-u M-.` : Find next match
 
+# Misc Commands
+
+- `M-x cd`: Change default directory.  Often needed when using search
+  commands that operate from current directory.
+
 Next: [Select](select.html)
