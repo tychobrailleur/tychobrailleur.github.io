@@ -33,4 +33,5 @@ Change `history-length` variable to incrase history size.  Default is 30.
 - `M-p`: Also up arrow. Previous command in history.
 - `M-n`: Also down arrow.  Next command in history.
 - `C-r`: Search back in command in history
-- `M-x list-command-history`: List commands in history.
+- `M-x list-command-history`: List commands in history.  Use `x` to
+  execute one of the commands in the list.
