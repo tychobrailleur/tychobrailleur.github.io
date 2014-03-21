@@ -44,7 +44,10 @@ after `C-y` as many times as you need.
 - `M-d`: Delete word.
 - `C-o`: Insert a newlie.
 - `C-x C-o`: Delete blank lines, leaving one.
-
+- `C-d`: `delete-char`, Deletes the next character.  `C-u C-d` deletes
+  all spaces up to next char.
+- `M-x flush-lines RET <regexp> RET`: Delete all the lines that match
+  the regexp
 
 # Join Lines
 
