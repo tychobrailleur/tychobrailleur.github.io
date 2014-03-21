@@ -1,4 +1,0 @@
----
-title: Regexp
-layout: default
----

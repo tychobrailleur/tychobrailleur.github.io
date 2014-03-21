@@ -32,6 +32,14 @@ Then:
 - `M-x find-name-dired t Q`: Prompts for interactive query-replace in files
   selected in dired.  Use `y` to accept replace. `C-x s !` to save all.
 
+## Examples
+
+- Remove `^M` characters:
+
+```
+M-% C-q C-M RET RET
+```
+
 # Match Parenthesis
 
 - `C-M-f` : `forward-sexp`, Search matching parenthesis forward
