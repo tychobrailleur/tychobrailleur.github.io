@@ -52,9 +52,17 @@ This creates a tag file that will to need to be visited when first searching for
 - `M-.`: search for a tag
 - `C-u M-.` : Find next match
 
+# Highlighting
+
+- `C-x w h <regexp> RET <face> RET` : Highlight regexp.  To then deactivate highlighting, `C-x
+  w r`.
+- `C-x w l <regexp> RET <face> RET`: Highlight lines containing regexp.
+
 # Misc Commands
 
 - `M-x cd`: Change default directory.  Often needed when using search
   commands that operate from current directory.
+
+
 
 Next: [Select](select.html)
