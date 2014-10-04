@@ -5,6 +5,8 @@ layout: default
 
 Here are some very useful help functions:
 
+- `C-h a <keyword>`: _Apropos_. Displays all the commands containing
+  _keyword_. 
 - `C-h k`: displays what function is bound to the key sequence entered
   in the mini-buffer.
 - `C-h m`: mode informations, describes all the bindings made
