@@ -14,3 +14,5 @@ Here are some very useful help functions:
 - `C-h f`: displays the description of the function entered in the
 minibuffer.
 - `C-h v`: displays the description and value of a variable.
+
+- `C-h w command RET`: `where-is` Displays key bindings that calls `command`.
