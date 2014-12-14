@@ -26,3 +26,7 @@ result.
 - `C-c ~`: Enter math mode.  In math mode, you can enter symbols more
   efficiently by using the ````` prefix.  For example, `\alpha`
   becomes ```a``.
+
+# Link
+
+- Cheat sheet: http://ftp.gnu.org/gnu/auctex/11.86-extra/tex-ref.pdf
