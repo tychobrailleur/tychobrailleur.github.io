@@ -27,6 +27,15 @@ result.
   efficiently by using the ````` prefix.  For example, `\alpha`
   becomes ```a``.
 
+# Preview
+
+- `C-c C-p C-p`: Preview at point.
+- `C-c C-p C-c C-p`: Cancel preview at point.
+- `C-c C-p C-r`: Preview region.
+- `C-c C-p C-c C-r`: Cancel preview region.
+- `C-c C-p C-b`: Preview buffer.
+- `C-c C-p C-c C-b`: Cancel preview buffer.
+
 # Link
 
 - Cheat sheet: http://ftp.gnu.org/gnu/auctex/11.86-extra/tex-ref.pdf

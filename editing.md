@@ -77,4 +77,9 @@ See also the [Emacs Manual](http://www.gnu.org/software/emacs/manual/html_node/e
 - `C-x TAB`: `indent-rigidly`.  Indentation of region can be adjusted
   with <left>, <right>, <S-left>, <S-right>. 
 
+# Unicode
+
+- `C-x 8 RET`: Enters Unicode character by entering its name,
+  e.g. `C-x 8 RET RIGHTWARDS ARROW RET`
+
 Next: [Search](search.html)

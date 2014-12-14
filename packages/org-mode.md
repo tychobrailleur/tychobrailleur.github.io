@@ -11,6 +11,9 @@ layout: default
 # Structure Edition
 
 - `M-RET`: Add new item at the current level;
+- `M-→`: Demote section level.
+- `M-←`: Promote section level.
+
 
 # LaTeX Preview
 
@@ -20,3 +23,11 @@ See also http://orgmode.org/worg/org-tutorials/org-latex-preview.html
 - `C-u C-c C-x C-l`: LaTeX preview on sub-tree;
 - `C-u C-u C-c C-x C-l`: LaTeX preview on the whole buffer;
 - `C-c C-c`: Stop LaTeX preview.
+
+# Example
+
+- `< e TAB`: Insert example block
+
+# Links
+
+- http://doc.norang.ca/org-mode.html
