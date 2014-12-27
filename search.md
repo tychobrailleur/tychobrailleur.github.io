@@ -48,6 +48,10 @@ M-% C-q C-M RET RET
 # Search content in files
 
 - `M-x rgrep` : Does a recursive grep.
+- To navigate in `grep-mode`:
+- `}`, `TAB`: Next match
+- `<`: Beginning of buffer
+- `>`: End of the buffer.
 
 # Exhuberant Ctags
 
