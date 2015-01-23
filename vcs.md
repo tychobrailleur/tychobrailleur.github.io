@@ -7,6 +7,8 @@ layout: default
 
 - `C-x v v`: Do the next appropriate VC action.  For example, for git, for a new file, stage the changes.
 - `C-x v i`: Stage changes in the current file.
+- `C-x v l`: list change log of current fileset.
+- `C-x v L`: list change log for the whole tree.
 - `C-x v =`: Diff changes
 - `C-x v g`: blame.
 
