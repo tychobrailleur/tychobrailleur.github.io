@@ -32,14 +32,19 @@ All these key combinations are actually calling Emacs [commands](commands.html).
 
 - `C-a`: Go to the beginning of the line.
 - `C-e`: Go to the end of the line.
+- `C-n`: Next line.
+- `C-p`: Previous line.
 - `C-l`: `recenter-top-bottom`, move the current line successively to the centre, to the top and then to the bottom of the [window](window.html).
 - `M-a`: Go to beginning of sentence.
 - `M-e`: Go to end of sentence.
+- `M-f`: Move forward by one word.
+- `M-b`: Move backward by one word.
 - `M-<`: Go to beginning of [buffer](buffer.html).
 - `M->`: Go to end of [buffer](buffer.html).
 - `M-{`: Go to beginning of paragraph.
 - `M-}`: Go to end of paragraph.
 - `M-g M-g`: `goto-line`, go to the line number.
+- `C-x C-n`: Use the current column as the preferred column when moning
 
 ## In Minibuffer
 

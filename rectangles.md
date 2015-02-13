@@ -15,6 +15,7 @@ point.
 # Commands on rectangles
 
 - `C-x r k`: Kill rectangle.
+- `C-x r M-w`: Copy into kill-ring.
 - `C-x r y`: Yank rectangle.
 - `C-x r d`: Delete rectangle.
-- `C-x r t string RET`
+- `C-x r t string RET`: Replace rectangle with `string` on each line.

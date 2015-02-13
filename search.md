@@ -12,6 +12,8 @@ This page covers:
 
 - `C-s` is a forward incremental search
 - `C-r` is a backward incremental search
+- `M-x list-matching-lines`: list lines matching a regexp in the
+  current buffer.
 
 ## Ibuffer
 
