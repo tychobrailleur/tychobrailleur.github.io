@@ -53,6 +53,10 @@ after `C-y` as many times as you need.
 
 - `M-^`: Join current line to previous, removing spaces.
 
+# Delete all the empty lines
+
+- `M-x flush-lines RET ^$ RET` on the current region.
+
 # Undo-Redo
 
 - `C-_` : undo
