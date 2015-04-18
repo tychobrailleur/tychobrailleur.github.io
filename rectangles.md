@@ -19,3 +19,4 @@ point.
 - `C-x r y`: Yank rectangle.
 - `C-x r d`: Delete rectangle.
 - `C-x r t string RET`: Replace rectangle with `string` on each line.
+- `C-x r N`: Number lines 

@@ -18,6 +18,7 @@ Here are some of the best tutorials out there:
 - [Unexpected Vortices](http://www.unexpected-vortices.com/emacs/quick-ref.html)
 - [Emacs Quick Tour](http://www.gnu.org/software/emacs/tour/)
 - [Xah Emacs Tutorial](http://ergoemacs.org/emacs/emacs.html)
+- [Absolute Beginner's Guide to Emacs](http://www.jesshamrick.com/2012/09/10/absolute-beginners-guide-to-emacs/)
 
 
 ### Wikis
@@ -30,3 +31,5 @@ Here are some of the best tutorials out there:
 - [Mastering Emacs](http://www.masteringemacs.org)
 - [All Things Emacs](http://emacsblog.org/)
 - [Emacs Redux](http://emacsredux.com/)
+- [(or emacs &middot; irrelevant)](http://oremacs.com/)
+- [What the .emacs.d!?](http://whattheemacsd.com/)
