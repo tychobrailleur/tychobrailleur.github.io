@@ -10,3 +10,9 @@ layout: default
 # Gallery
 
 http://pawelbx.github.io/emacs-theme-gallery/
+
+# Emacs Theme Creator
+
+This helps generating your own emacs theme.
+
+https://github.com/mswift42/theme-creator
