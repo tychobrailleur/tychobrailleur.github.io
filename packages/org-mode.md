@@ -28,6 +28,15 @@ See also http://orgmode.org/worg/org-tutorials/org-latex-preview.html
 
 - `< e TAB`: Insert example block
 
+# Source code
+
+- `< s TAB`: Insert source code block
+- `C-c '`: Edit block code in buffer with relevant mode
+
+# Export
+
+- `C-c C-e l o`: Export to LaTeX, Compile and open PDF.
+
 # Links
 
 - http://doc.norang.ca/org-mode.html
