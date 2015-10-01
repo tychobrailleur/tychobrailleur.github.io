@@ -20,3 +20,7 @@ The mode line displays details about the file status. For example, for git, it d
 - `:`: file is modified,
 - `!`: file contains conflicts,
 - `@`: added locally but not yet committed.
+
+# Other useful commands
+
+- `vc-region-history`: Gives the history of the region
