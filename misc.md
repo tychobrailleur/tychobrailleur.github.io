@@ -1,6 +1,6 @@
 ---
 title: Miscellaneous
-layout:default
+layout: default
 ---
 
 # Display info on cursor position
@@ -11,11 +11,21 @@ layout:default
 
 `M-x proced`.
 
-This lists processes _à la_ `ps`.x
+This lists processes _à la_ `ps`.
 
 # Report a bug
 
 `M-x report-emacs-bug`.
+
+# Verify buffer style
+
+`M-x checkdoc`
+
+# Insert Default Contents
+
+(for example Emacs Lisp copyright notice and GPL license)
+
+`M-x auto-insert`
 
 # Fun Facts
 
