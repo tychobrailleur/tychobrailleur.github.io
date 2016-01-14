@@ -10,7 +10,9 @@ layout: default
 - `C-x v l`: list change log of current fileset.
 - `C-x v L`: list change log for the whole tree.
 - `C-x v =`: Diff changes
+- `C-x v -`: Show old revision in a separate buffer.
 - `C-x v g`: blame.
+
 
 # File Status
 
@@ -20,6 +22,14 @@ The mode line displays details about the file status. For example, for git, it d
 - `:`: file is modified,
 - `!`: file contains conflicts,
 - `@`: added locally but not yet committed.
+
+# Annotate
+
+Equivalent to _blame_.  Once in `vc-annotate -mode`:
+
+- `j`: Annotate version for the current line.
+- `p`: Annotate previous version.
+- `n`: Annotate next version.
 
 # Other useful commands
 
