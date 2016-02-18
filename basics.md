@@ -39,12 +39,19 @@ All these key combinations are actually calling Emacs [commands](commands.html).
 - `M-e`: Go to end of sentence.
 - `M-f`: Move forward by one word.
 - `M-b`: Move backward by one word.
+- `M-m`: Move to first non-whitespace character of the line (`back-to-indentation`).
 - `M-<`: Go to beginning of [buffer](buffer.html).
 - `M->`: Go to end of [buffer](buffer.html).
 - `M-{`: Go to beginning of paragraph.
 - `M-}`: Go to end of paragraph.
 - `M-g M-g`: `goto-line`, go to the line number.
 - `C-x C-n`: Use the current column as the preferred column when moning
+
+
+# Counting
+
+- `C-x l`: Number of lines in the buffer.
+- `M-=`: Number of lines, words and characters in the region.
 
 ## In Minibuffer
 
