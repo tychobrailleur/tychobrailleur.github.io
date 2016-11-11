@@ -17,5 +17,6 @@ minibuffer.
 - `C-h v`: displays the description and value of a variable.
 - `C-h  l`: (`view-lossage`) lists the commands that were run. (Since
   25.1)
+- `C-h C`: Coding system for the current buffer.
 
 - `C-h w command RET`: `where-is` Displays key bindings that calls `command`.
