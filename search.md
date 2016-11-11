@@ -15,6 +15,12 @@ This page covers:
 - `M-x list-matching-lines`: list lines matching a regexp in the
   current buffer.
 
+In search mode, the following bindings are available:
+
+- `M-e`: Edit search string
+- `M-s c`: Toggle case-sensitive search
+- `M-s o`: List occurrences of search string
+
 ## Ibuffer
 
 In Ibuffer, you can select buffers to do an incremental search on them.  To mark buffers in the list, press `m`.
