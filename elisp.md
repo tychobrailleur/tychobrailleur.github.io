@@ -25,6 +25,16 @@ Sum all even numbers below 10:
 
 ```
 
+
+# Buffers
+
+Create a new buffer and switch to it:
+
+```
+(with-current-buffer (get-buffer-create "*hi*")
+  (pop-to-buffer (current-buffer)))
+```
+
 # Common Lisp
 
 ## For Loop
@@ -39,7 +49,7 @@ Sum all even numbers below 10:
 
 ```
 (loop with product = '()
-      for i from 1 to 10 
+      for i from 1 to 10
       do (loop for j from 1 to 10 do (push (* i j) product))
       finally return (nreverse product))
 ```
