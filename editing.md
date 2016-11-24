@@ -15,7 +15,7 @@ A new file can be created in two ways:
 Use `C-x C-s` to save a buffer changes to a file.  If there is no file
 associated to a buffer, the minibuffer will prompt for one.
 
-# Copy-Paste 
+# Copy-Paste
 
 Copy-paste is easier to do with CUA mode active.  To activate CUA
 mode, go to the _Options_ menu and make sure _Use CUA Keys_ is ticked.
@@ -49,6 +49,10 @@ after `C-y` as many times as you need.
 - `M-x flush-lines RET <regexp> RET`: Delete all the lines that match
   the regexp
 
+# Sorting
+
+- `M-x reverse-region`: Reverse order of lines in region.
+
 # Join Lines
 
 - `M-^`: Join current line to previous, removing spaces.
@@ -77,9 +81,10 @@ See also the [Emacs Manual](http://www.gnu.org/software/emacs/manual/html_node/e
 - `C-t`: transpose character
 - `M-t`: transport words
 - `C-x C-t`: transpose lines
+- `M-x toggle-truncate-lines`: toggle line wrapping.
 
 - `C-x TAB`: `indent-rigidly`.  Indentation of region can be adjusted
-  with <left>, <right>, <S-left>, <S-right>. 
+  with <left>, <right>, <S-left>, <S-right>.
 
 # Unicode
 
