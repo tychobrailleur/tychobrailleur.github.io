@@ -14,6 +14,10 @@ layout: default
 - `M-→`: Demote section level.
 - `M-←`: Promote section level.
 
+# Formatting
+
+- `C-c C-l`: Insert a link.
+
 
 # LaTeX Preview
 
