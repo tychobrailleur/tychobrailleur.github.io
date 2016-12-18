@@ -75,3 +75,10 @@ Create a new buffer and switch to it:
 # Misc
 
 Automatically add GNU headers in Elisp file: `M-x auto-insert`
+
+
+# Elisp REPL
+
+```
+M-x ielm
+```
