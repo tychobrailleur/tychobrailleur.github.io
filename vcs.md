@@ -25,7 +25,7 @@ The mode line displays details about the file status. For example, for git, it d
 
 # Annotate
 
-Equivalent to _blame_.  Once in `vc-annotate -mode`:
+Equivalent to _blame_.  Once in `vc-annotate-mode`:
 
 - `j`: Annotate version for the current line.
 - `p`: Annotate previous version.
@@ -33,4 +33,9 @@ Equivalent to _blame_.  Once in `vc-annotate -mode`:
 
 # Other useful commands
 
-- `vc-region-history`: Gives the history of the region
+- `vc-region-history`: Gives the history of the region.
+- `C-x v d`: (`vc-dir`) “Show the VC status for "interesting" files in and below
+  DIR.”
+- `C-x v D`: (`vc-root-diff`) Displays diffs for a directory.
+- `C-x 4 A`: (`diff-add-change-log-entries-other-window`) When
+  executed in a diff buffer, creates a ChangeLog buffer with changes.
