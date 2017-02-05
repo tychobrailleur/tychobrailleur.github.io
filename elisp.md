@@ -11,6 +11,12 @@ Get text in region:
 (buffer-substring start end) ;; or buffer-substring-no-properties
 ```
 
+Replace regexp `substr` with `replace-str` in string `str`:
+
+```
+(replace-regexp-in-string substr replace-str str t t)
+```
+
 
 # Lists
 
@@ -29,9 +35,10 @@ Sum all even numbers below 10:
 
 # Files
 
+Write a string `str` to a file `file-path`
+
 ```
-
-
+(write-region str nil file-path nil nil nil t)
 ```
 
 

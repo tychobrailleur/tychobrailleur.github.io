@@ -19,6 +19,11 @@ layout: default
 - `C-c C-l`: Insert a link.
 
 
+# Tags
+
+- `C-c C-t`: Cycles through unmarked, TODO, DONE.
+
+
 # LaTeX Preview
 
 See also http://orgmode.org/worg/org-tutorials/org-latex-preview.html

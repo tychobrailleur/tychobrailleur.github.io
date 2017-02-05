@@ -21,6 +21,11 @@ In search mode, the following bindings are available:
 - `M-s c`: Toggle case-sensitive search
 - `M-s o`: List occurrences of search string
 
+## Search in multiple buffers
+
+- `M-x multi-occur-in-matching-buffers RET .* RET <text> RET`: Search
+  in all open buffers.
+
 ## Ibuffer
 
 In Ibuffer, you can select buffers to do an incremental search on them.  To mark buffers in the list, press `m`.
