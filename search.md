@@ -10,7 +10,7 @@ This page covers:
 
 # Search in a buffer
 
-- `C-s` is a forward incremental search
+- `C-s` is a forward incremental search.  `M-%` to replace found occurrence.
 - `C-r` is a backward incremental search
 - `M-x list-matching-lines`: list lines matching a regexp in the
   current buffer.
