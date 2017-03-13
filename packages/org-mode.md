@@ -19,6 +19,15 @@ layout: default
 - `C-c C-l`: Insert a link.
 
 
+## Tables
+
+- Lines beginning with `|` are considered to be part of a table.
+- `TAB`: Reformat table.
+- `C-c -`: (`org-table-insert-hline`) Inserts an horizontal line.
+
+
+See also http://orgmode.org/manual/Tables.html#Tables for more details.
+
 # Tags
 
 - `C-c C-t`: Cycles through unmarked, TODO, DONE.
@@ -45,6 +54,16 @@ See also http://orgmode.org/worg/org-tutorials/org-latex-preview.html
 # Export
 
 - `C-c C-e l o`: Export to LaTeX, Compile and open PDF.
+
+Example of a header that can be used:
+
+```
+#+STARTUP: showall
+#+TITLE: Links
+#+AUTHOR: Sébastien Le Callonnec
+#+LaTeX_CLASS: memoir
+#+LaTeX_CLASS_OPTIONS: [a4paper, twoside]
+```
 
 # Links
 
