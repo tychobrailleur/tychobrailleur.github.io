@@ -82,7 +82,8 @@ See also the [Emacs Manual](http://www.gnu.org/software/emacs/manual/html_node/e
 - `M-t`: transport words
 - `C-x C-t`: transpose lines
 - `M-x toggle-truncate-lines`: toggle line wrapping.
-
+- `M-SPC`: `just-one-space`. Delete all white spaces until the next
+  non-space char, leaving just one.
 - `C-x TAB`: `indent-rigidly`.  Indentation of region can be adjusted
   with <left>, <right>, <S-left>, <S-right>.
 
