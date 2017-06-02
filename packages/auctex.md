@@ -3,11 +3,13 @@ title: AUCTeX
 layout: default
 ---
 
+This documents AUCTeX and RefTeX.
+
 
 # Basics
 
 - `C-c C-e`: Add an environment, such as `verbatim`, `itemize`, etc.
-- `C-c C-s`: Add sectioning, such as `section`, 'subsection`, etc.
+- `C-c C-s`: Add sectioning, such as `section`, `subsection`, etc.
 - `C-c C-c`: Compile document, or if document is already compile, open
 result.
 - `C-c C-r`: Partial compiling on region.
@@ -26,6 +28,13 @@ result.
 - `C-c ~`: Enter math mode.  In math mode, you can enter symbols more
   efficiently by using the ````` prefix.  For example, `\alpha`
   becomes ```a``.
+
+# References
+
+- `C-c =`: (`reftex-toc`) Displays the contents for the current
+  document.
+- `C-c (`: Inserts a label.
+- `C-c )`: Adds a reference to a label.
 
 # Preview
 
