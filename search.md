@@ -43,7 +43,20 @@ Then:
 ## Search and Replace in several files
 
 - `M-x find-name-dired t Q`: Prompts for interactive query-replace in files
-  selected in dired.  Use `y` to accept replace. `C-x s !` to save all.
+  selected in dired.  Use `y` to accept replace. `C-x s !` to save
+  all.
+
+## Search and Replace with across multiline regions
+
+Newlines must be entered using `C-q C-j`.  For example, to remove
+trailing commas in a JSON file, the regexp should be:
+
+```
+,\([
+ ]+},\)
+```
+
+the newline being inserted with `C-q C-j`.
 
 ## Examples
 
