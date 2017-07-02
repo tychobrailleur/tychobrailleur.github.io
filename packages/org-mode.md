@@ -31,6 +31,7 @@ See also http://orgmode.org/manual/Tables.html#Tables for more details.
 # Tags
 
 - `C-c C-t`: Cycles through unmarked, TODO, DONE.
+- `C-c C-c`: Add tag to headline.
 
 
 # LaTeX Preview
