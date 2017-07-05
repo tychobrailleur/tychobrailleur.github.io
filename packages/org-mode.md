@@ -17,7 +17,7 @@ layout: default
 # Formatting
 
 - `C-c C-l`: Insert a link.
-
+- `/italic/`, `*bold*`, `=verbatim=`
 
 ## Tables
 
@@ -66,6 +66,9 @@ Example of a header that can be used:
 #+LaTeX_CLASS_OPTIONS: [a4paper, twoside]
 ```
 
+- With `org-odt` required, document can be exported to an odt file.
+
 # Links
 
+- [org-mode manual](http://orgmode.org/manual/)
 - http://doc.norang.ca/org-mode.html
