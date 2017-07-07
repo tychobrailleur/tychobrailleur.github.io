@@ -52,6 +52,11 @@ See also http://orgmode.org/worg/org-tutorials/org-latex-preview.html
 - `< s TAB`: Insert source code block
 - `C-c '`: Edit block code in buffer with relevant mode
 
+## Execute code block
+
+Add language to `org-babel-load-languages` (using `customize`), and
+execute `C-c C-c`.
+
 # Export
 
 - `C-c C-e l o`: Export to LaTeX, Compile and open PDF.
@@ -66,9 +71,12 @@ Example of a header that can be used:
 #+LaTeX_CLASS_OPTIONS: [a4paper, twoside]
 ```
 
+A sample header can be added by using `C-c C-e #`.
+
 - With `org-odt` required, document can be exported to an odt file.
 
 # Links
 
 - [org-mode manual](http://orgmode.org/manual/)
 - http://doc.norang.ca/org-mode.html
+- [Org Babel code block evaluation](https://org-babel.readthedocs.io/en/latest/eval/)
