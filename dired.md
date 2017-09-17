@@ -15,6 +15,8 @@ Once in a dired window (`M-x dired`), the following keys can be used:
 - `u`: Unmark for deletion
 - `U`: Unmark all
 - `* s`: mark all, except for `.` and `..`
+- `* .`: mark all files with a given extension
+- `* %`: mark all files matching a given regexp
 
 ## Actions
 
