@@ -45,8 +45,14 @@ All these key combinations are actually calling Emacs [commands](commands.html).
 - `M-{`: Go to beginning of paragraph.
 - `M-}`: Go to end of paragraph.
 - `M-g M-g`: `goto-line`, go to the line number.
-- `C-x C-n`: Use the current column as the preferred column when moning
+- `C-x C-n`: Use the current column as the preferred column when
+  moving
 
+# Zooming in/out
+
+- `C-x C--`: Decrease font size (“zoom out”).
+- `C-x C-+`: Increase font size (“zoom in”).
+- `C-x C-0`: Reset to default size.
 
 # Counting
 
