@@ -15,4 +15,4 @@ mode line, etc.
 
 Here is an example of `writeroom` in action:
 
-![Write-Room screenshot]({{ writeroom.png }})
+![Write-Room screenshot](writeroom.png){:width=600}
