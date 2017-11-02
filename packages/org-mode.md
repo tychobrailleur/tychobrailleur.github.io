@@ -18,15 +18,26 @@ layout: default
 
 - `C-c C-l`: Insert a link.
 - `/italic/`, `*bold*`, `=verbatim=`
+- For enums, use ` :: ` between item header and body.
 
-## Tables
+## Tables
 
 - Lines beginning with `|` are considered to be part of a table.
 - `TAB`: Reformat table.
 - `C-c -`: (`org-table-insert-hline`) Inserts an horizontal line.
 
-
 See also http://orgmode.org/manual/Tables.html#Tables for more details.
+
+
+## Links
+
+- `C-c C-l` to insert a link.
+- `[[ ... ]]` notation can be used to insert any link.  The link can
+  be internal (use heading text, `#+NAME` property, or add ref
+  ``<<ref>>`), or external and link to a local file, a URL, a shell
+  command etc.
+
+See also http://orgmode.org/manual/External-links.html
 
 # Tags
 
