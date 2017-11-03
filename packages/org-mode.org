@@ -1,0 +1,139 @@
+#+STARTUP: showall
+#+BEGIN_HTML
+---
+layout: default
+title: Org-Mode
+---
+#+END_HTML
+
+* Visibility
+:PROPERTIES:
+:CUSTOM_ID: visibility
+:END:
+
+- =TAB=: Toggle current sub-tree;
+- =S-TAB=: Toggle whole buffer visibility
+
+* Structure Edition
+:PROPERTIES:
+:CUSTOM_ID: structure-edition
+:END:
+
+- =M-RET=: Add new item at the current level;
+- =M-→=: Demote section level.
+- =M-←=: Promote section level.
+
+* Formatting
+:PROPERTIES:
+:CUSTOM_ID: formatting
+:END:
+
+- =C-c C-l=: Insert a link.
+- =/italic/=, =*bold*=, ==verbatim==
+- For enums, use =::= between item header and body.
+
+** Tables
+:PROPERTIES:
+:CUSTOM_ID: tables
+:END:
+
+- Lines beginning with =|= are considered to be part of a table.
+- =TAB=: Reformat table.
+- =C-c -=: (=org-table-insert-hline=) Inserts an horizontal line.
+
+See also http://orgmode.org/manual/Tables.html#Tables for more details.
+
+** Links
+:PROPERTIES:
+:CUSTOM_ID: links
+:END:
+
+- =C-c C-l= to insert a link.
+- =[[ ... ]]= notation can be used to insert any link. The link can be
+  internal (use heading text, =#+NAME= property, or add ref `=<<ref>>=),
+  or external and link to a local file, a URL, a shell command etc.
+
+See also http://orgmode.org/manual/External-links.html
+
+* Tags
+:PROPERTIES:
+:CUSTOM_ID: tags
+:END:
+
+- =C-c C-t=: Cycles through unmarked, TODO, DONE.
+- =C-c C-c=: Add tag to headline.
+
+* LaTeX Preview
+:PROPERTIES:
+:CUSTOM_ID: latex-preview
+:END:
+
+See also http://orgmode.org/worg/org-tutorials/org-latex-preview.html
+
+- =C-c C-x C-l=: LaTeX preview on current line;
+- =C-u C-c C-x C-l=: LaTeX preview on sub-tree;
+- =C-u C-u C-c C-x C-l=: LaTeX preview on the whole buffer;
+- =C-c C-c=: Stop LaTeX preview.
+
+* Example
+:PROPERTIES:
+:CUSTOM_ID: example
+:END:
+
+- =< e TAB=: Insert example block
+
+* Source code
+:PROPERTIES:
+:CUSTOM_ID: source-code
+:END:
+
+- =< s TAB=: Insert source code block
+- =C-c '=: Edit block code in buffer with relevant mode
+
+** Execute code block
+:PROPERTIES:
+:CUSTOM_ID: execute-code-block
+:END:
+
+Add language to =org-babel-load-languages= (using =customize=), and
+execute =C-c C-c=.
+
+* Export
+:PROPERTIES:
+:CUSTOM_ID: export
+:END:
+
+- =C-c C-e l o=: Export to LaTeX, Compile and open PDF.
+
+Example of a header that can be used:
+
+#+BEGIN_EXAMPLE
+    #+STARTUP: showall
+    #+TITLE: Links
+    #+AUTHOR: Sébastien Le Callonnec
+    #+LaTeX_CLASS: memoir
+    #+LaTeX_CLASS_OPTIONS: [a4paper, twoside]
+#+END_EXAMPLE
+
+A sample header can be added by using =C-c C-e #=.
+
+- With =org-odt= required, document can be exported to an odt file.
+
+* GitHub Pages
+
+  Jekyll uses Markdown, but you can use [[https://pandoc.org/][Pandoc]] to convert Org-Mode
+  files to Markdown:
+
+#+BEGIN_SRC bash
+pandoc --atx-headers -f org -t markdown org-mode.org -o org-mode.md
+#+END_SRC
+
+* Links
+:PROPERTIES:
+:CUSTOM_ID: links-1
+:END:
+
+- [[http://orgmode.org/manual/][org-mode manual]]
+- http://doc.norang.ca/org-mode.html
+- [[https://org-babel.readthedocs.io/en/latest/eval/][Org Babel code
+  block evaluation]]
