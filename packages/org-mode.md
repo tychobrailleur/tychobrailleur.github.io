@@ -25,6 +25,8 @@ title: Org-Mode
 -   Lines beginning with `|` are considered to be part of a table.
 -   `TAB`: Reformat table.
 -   `C-c -`: (`org-table-insert-hline`) Inserts an horizontal line.
+- `C-u C-c -`: Inserts an horizontal line above the current line.
+- `C-c |`: converts the text from a region into a table.
 
 See also <http://orgmode.org/manual/Tables.html#Tables> for more
 details.
