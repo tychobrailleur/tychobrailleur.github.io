@@ -25,8 +25,10 @@ title: Org-Mode
 -   Lines beginning with `|` are considered to be part of a table.
 -   `TAB`: Reformat table.
 -   `C-c -`: (`org-table-insert-hline`) Inserts an horizontal line.
--   `C-u C-c -`: Inserts an horizontal line above the current line.
--   `C-c |`: converts the text from a region into a table.
+-   `C-c RET`: Insert horizontal line, and go into the row below.
+-   `S-M-<left>`: (`org-table-delete-column`) Delete column.
+-   `C-c +`: (`org-table-sum`) Sum numbers in the current column, or in
+    the rectangle defined by the current region.
 
 See also <http://orgmode.org/manual/Tables.html#Tables> for more
 details.
@@ -35,9 +37,9 @@ details.
 
 -   `C-c C-l` to insert a link.
 -   `[[ ... ]]` notation can be used to insert any link. The link can be
-    internal (use heading text, `#+NAME` property, or add ref \`=<span
-    id="ref"></span>=), or external and link to a local file, a URL, a
-    shell command etc.
+    internal (use heading text, `#+NAME` property, or add ref
+    \`=[]{#ref}=), or external and link to a local file, a URL, a shell
+    command etc.
 
 See also <http://orgmode.org/manual/External-links.html>
 
@@ -76,11 +78,11 @@ execute `C-c C-c`.
 Example of a header that can be used:
 
 ``` {.example}
-    #+STARTUP: showall
-    #+TITLE: Links
-    #+AUTHOR: Sébastien Le Callonnec
-    #+LaTeX_CLASS: memoir
-    #+LaTeX_CLASS_OPTIONS: [a4paper, twoside]
+#+STARTUP: showall
+#+TITLE: Links
+#+AUTHOR: Sébastien Le Callonnec
+#+LaTeX_CLASS: memoir
+#+LaTeX_CLASS_OPTIONS: [a4paper, twoside]
 ```
 
 A sample header can be added by using `C-c C-e #`.
@@ -102,4 +104,3 @@ pandoc --atx-headers -f org -t markdown org-mode.org -o org-mode.md
 -   <http://doc.norang.ca/org-mode.html>
 -   [Org Babel code block
     evaluation](https://org-babel.readthedocs.io/en/latest/eval/)
-

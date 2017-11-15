@@ -40,8 +40,10 @@ title: Org-Mode
 - Lines beginning with =|= are considered to be part of a table.
 - =TAB=: Reformat table.
 - =C-c -=: (=org-table-insert-hline=) Inserts an horizontal line.
-- =C-u C-c -=: Inserts an horizontal line above the current line.
-- =C-c |=: converts the text from a region into a table.
+- =C-c RET=: Insert horizontal line, and go into the row below.
+- =S-M-<left>=:  (=org-table-delete-column=) Delete column.
+- =C-c +=: (=org-table-sum=) Sum numbers in the current column, or in
+  the rectangle defined by the current region.
 
 See also http://orgmode.org/manual/Tables.html#Tables for more details.
 
@@ -130,6 +132,8 @@ A sample header can be added by using =C-c C-e #=.
 pandoc --atx-headers -f org -t markdown org-mode.org -o org-mode.md
 #+END_SRC
 
+#+RESULTS:
+
 * Links
 :PROPERTIES:
 :CUSTOM_ID: links-1
@@ -137,5 +141,4 @@ pandoc --atx-headers -f org -t markdown org-mode.org -o org-mode.md
 
 - [[http://orgmode.org/manual/][org-mode manual]]
 - http://doc.norang.ca/org-mode.html
-- [[https://org-babel.readthedocs.io/en/latest/eval/][Org Babel code
-  block evaluation]]
+- [[https://org-babel.readthedocs.io/en/latest/eval/][Org Babel code block evaluation]]
