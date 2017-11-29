@@ -48,6 +48,13 @@ See also <http://orgmode.org/manual/External-links.html>
 -   `C-c C-t`: Cycles through unmarked, TODO, DONE.
 -   `C-c C-c`: Add tag to headline.
 
+# Archiving
+
+-   `C-c $`: Archive current subtree.
+-   `C-c a m`: Find all the items that match a rule. `Match:` (e.g.
+    `CLOSED<"<-60d>"`, all the DONE items older than 60 days). In the
+    Agenda view, items can then be archived using `$`.
+
 # LaTeX Preview
 
 See also <http://orgmode.org/worg/org-tutorials/org-latex-preview.html>
