@@ -18,6 +18,12 @@ Once in a dired window (`M-x dired`), the following keys can be used:
 - `* .`: mark all files with a given extension
 - `* %`: mark all files matching a given regexp
 
+## Sorting
+
+- `s`: toggle sorting by name and by date
+- `C-u s`: Edit `ls` options.  Can be used to use different sorting,
+  such as `-alS` to sort by size.
+
 ## Actions
 
 - `D` : Delete
