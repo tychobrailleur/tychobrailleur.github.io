@@ -32,6 +32,11 @@ Sum all even numbers below 10:
 (apply '+ (remove-if-not #'(lambda (x) (zerop (mod x 2))) (number-sequence 1 10)))
 ```
 
+Apply function to a list:
+
+```
+(mapcar (lambda (e) (upcase e)) '("one" "two" "three"))
+```
 
 # Files
 
@@ -49,6 +54,16 @@ Create a new buffer and switch to it:
 ```
 (with-current-buffer (get-buffer-create "*hi*")
   (pop-to-buffer (current-buffer)))
+```
+
+# Run Commands
+
+Run command `cmd`, save into a string, and append to buffer `buffer`:
+
+```
+(with-current-buffer buffer
+      (goto-char (point-max))
+      (insert (shell-command-to-string cmd)))
 ```
 
 # Common Lisp
