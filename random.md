@@ -34,6 +34,10 @@ This lists processes _à la_ `ps`.
 
 `M-x auto-insert`
 
+# Insert current directory at point
+
+`C-u M-x pwd`
+
 # Fun Facts
 
 - `pi` evals to `3.141592653589793`, `float-e` evals to
