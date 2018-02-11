@@ -10,8 +10,6 @@ This documents AUCTeX and RefTeX.
 
 - `C-c C-e`: Add an environment, such as `verbatim`, `itemize`, etc.
 - `C-c C-s`: Add sectioning, such as `section`, `subsection`, etc.
-- `C-c C-c`: Compile document, or if document is already compile, open
-result.
 - `C-c C-r`: Partial compiling on region.
 - `C-c C-v`: View document.
 - `C-c RET`: Add command.
@@ -44,6 +42,26 @@ result.
 - `C-c C-p C-c C-r`: Cancel preview region.
 - `C-c C-p C-b`: Preview buffer.
 - `C-c C-p C-c C-b`: Cancel preview buffer.
+
+# Compile
+
+- `C-c C-c`: Compile document, or if document is already compiled,
+  open the result.
+- `C-c C-a`: Compile the document until all references are resolved
+  (or an error occurs), and show the result.
+
+
+## Engine
+
+    The engine can be selected by using variables:
+
+```
+%%% Local Variables:
+%%% coding: utf-8
+%%% mode: latex
+%%% TeX-engine: xetex
+%%% End:
+```
 
 # Link
 
