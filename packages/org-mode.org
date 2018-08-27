@@ -74,6 +74,13 @@ See also http://orgmode.org/manual/External-links.html
   (e.g. =CLOSED<"<-60d>"=, all the DONE items older than 60 days).
   In the Agenda view, items can then be archived using =$=.
 
+** Seeing all done items and moving them
+
+- =C-c a < t=: This will list all the TODO items,
+- =<N> r=: with =N= the shortcut for the =DONE= state.
+- =*= to mark all, =m= to mark the item at point.
+- =B $= to bulk archive.
+
 * LaTeX Preview
 :PROPERTIES:
 :CUSTOM_ID: latex-preview
