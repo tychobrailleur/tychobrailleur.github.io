@@ -66,6 +66,18 @@ the newline being inserted with `C-q C-j`.
 M-% C-q C-M RET RET
 ```
 
+## Replace with a Lisp expression
+
+```
+ M-x replace-regexp <RET> ^.\{0,72\}$ <RET>
+         \,(format "%-72sABC%05d" \& \#) <RET>
+```
+
+- `\&` : Represents the whole match being replaced
+- `\#` : Count of replacement so far, starting with 0
+- `\1`, `\2`, ...: Grouped match.
+- `\#1`, `\#2`, ...: Grouped match as a number.
+
 # Match Parenthesis
 
 - `C-M-f` : `forward-sexp`, Search matching parenthesis forward
