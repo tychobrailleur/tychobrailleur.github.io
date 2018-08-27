@@ -8,7 +8,7 @@ A command is an interactive function, i.e. a function that can be called using `
 - `C-x` is called character extend.  It is followed by one character;
 - `M-x` is called command extend.  It is followed by a long name.
 
-# Cancelling 
+# Cancelling
 
 - `C-g`: cancel command.
 - `ESC ESC ESC`: either quit or abort.
@@ -17,12 +17,14 @@ A command is an interactive function, i.e. a function that can be called using `
 
 - `C-x z`: Repeat previous command.
 - `C-x z z z`: Repeat previous command three times.
+- `M-x repeat-complex-command`: Edit and re-evaluate the last complex
+  command, i.e. the last one that used the minibuffer.
 
 # More
 
 `C-x` uses a keymap where the bindings are defined.  This keymap is stored in
 `ctl-x-map`.  To see this map, just use `C-h v ctl-x-map`.  See
-[help](help.html) for more details on Help commands. 
+[help](help.html) for more details on Help commands.
 
 # Minibuffer
 
