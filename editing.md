@@ -37,6 +37,8 @@ Anything that’s “killed” is actually cut, and can be _yanked_ using
 `C-y`.  You can cycle through the previous cut values using `M-y`
 after `C-y` as many times as you need.
 
+- `C-M-SPC M-w` : Select current sexp, and put it in the kill ring.
+
 # Delete and insert
 
 - `C-k` : kill text to the end of line

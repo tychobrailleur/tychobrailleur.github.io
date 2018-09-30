@@ -2,6 +2,10 @@
 title: Emacs Lisp
 layout:default
 ---
+# Numbers
+
+Largest value for a Lisp integer: `most-positive-fixnum`
+
 
 # Strings
 
