@@ -1,0 +1,20 @@
+* Install Slime
+
+* Install quicklisp
+
+* Install clhs
+
+  https://github.com/Hexstream/clhs
+
+
+  In Slime:
+#+BEGIN_SRC
+(ql:quickload "clhs")
+(clhs:print-emacs-setup-form)
+#+END_SRC
+
+  Then in your init file:
+
+#+BEGIN_SRC emacs-lisp
+(load "~/quicklisp/clhs-use-local.el" t)
+#+END_SRC
