@@ -30,6 +30,8 @@ Equivalent to _blame_.  Once in `vc-annotate-mode`:
 - `j`: Annotate version for the current line.
 - `p`: Annotate previous version.
 - `n`: Annotate next version.
+- `f`: Display file revision for current line in a new buffer.
+- `v`: Toggle annotation visibility.
 
 # Other useful commands
 
