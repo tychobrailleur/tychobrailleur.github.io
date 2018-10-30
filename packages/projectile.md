@@ -10,7 +10,12 @@ title: Projectile
 - `C-c p p`: Switch projects
 
 
+# Utils
+
+ - `C-c p R`: Regenerate [c|e]tags.
+
 
 # Links
 
+- https://projectile.readthedocs.io/en/latest/usage/
 - http://tuhdo.github.io/helm-projectile.html
