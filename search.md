@@ -32,7 +32,10 @@ In Ibuffer, you can select buffers to do an incremental search on them.  To mark
 
 Then:
 
-- `M-s a C-s`: Incremental search on marked buffers.  When the end of a buffer is reached (with `C-s`, it goes to the next marked one.  Once all the buffers have been searched, it rotates back to the first buffer.
+- `M-s a C-s`: Incremental search on marked buffers.  When the end of
+  a buffer is reached (with `C-s`, it goes to the next marked one.
+  Once all the buffers have been searched, it rotates back to the
+  first buffer.
 - `M-s a C-M-s`: Isearch for regexp in the marked buffers.
 
 # Search and replace
@@ -113,6 +116,11 @@ This creates a tag file that will to need to be visited when first searching for
 - `M-x cd`: Change default directory.  Often needed when using search
   commands that operate from current directory.
 
+
+# Find a file
+
+  - `find-name-dired`: Searches file pattern in a given base directory
+  - `locate`: Searches file using a search string.
 
 
 Next: [Select](select.html)
