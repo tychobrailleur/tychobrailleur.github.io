@@ -10,6 +10,12 @@ layout: default
 - `M-|`: `shell-command-on-region`, executes command using region as input.
 - `C-u M-|`: same, but replaces region with output from command.
 
+   Example:
+
+   ```
+   C-u M-| uniq
+   ```
+
 # Shell
 
 A shell session can be started with `M-x shell`

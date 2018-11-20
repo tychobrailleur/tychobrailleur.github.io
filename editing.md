@@ -7,8 +7,11 @@ layout: default
 
 A new file can be created in two ways:
 
-- Open a non-existing file from the command line with emacs: `$ emacs my_new_file`.  This will open a new empty buffer.
-- Create a new buffer in Emacs by typing `C-x b` name of the buffer `RET`.  This creates a new buffer you can edit.  You can then [save to a file](editing.html#save).
+- Open a non-existing file from the command line with emacs: `$ emacs
+  my_new_file`.  This will open a new empty buffer.
+- Create a new buffer in Emacs by typing `C-x b` name of the buffer
+  `RET`.  This creates a new buffer you can edit.  You can then [save
+  to a file](editing.html#save).
 
 # Save
 
@@ -53,6 +56,7 @@ after `C-y` as many times as you need.
 
 # Sorting
 
+- `M-x sort-lines`: Sort lines.
 - `M-x reverse-region`: Reverse order of lines in region.
 
 # Join Lines
@@ -62,6 +66,11 @@ after `C-y` as many times as you need.
 # Delete all the empty lines
 
 - `M-x flush-lines RET ^$ RET` on the current region.
+
+# Delete duplicate lines
+
+- `M-x delete-duplicate-lines`: Remove duplicate lines.
+- `C-u M-| uniq`: Run `uniq` command on region.
 
 # Undo-Redo
 
