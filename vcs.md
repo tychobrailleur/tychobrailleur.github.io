@@ -41,3 +41,4 @@ Equivalent to _blame_.  Once in `vc-annotate-mode`:
 - `C-x v D`: (`vc-root-diff`) Displays diffs for a directory.
 - `C-x 4 A`: (`diff-add-change-log-entries-other-window`) When
   executed in a diff buffer, creates a ChangeLog buffer with changes.
+- `C-u C-x v ~`: See current file in given file.

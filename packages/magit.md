@@ -19,6 +19,14 @@ Once in the Magit buffer, you can use the following keys:
 - `P`: Push
 - `F`: Pull
 
+## magit status
+
+In the magit status buffer, you can use `1`, `2`, `3`, `4` to change
+the amount of info that can be visualised.
+
+- `C-x C-j`: Jump to file from status to dired.
+- `C-c C-e`: On a hunk, jump to file at that change.
+
 # Commits
 
 - `e`: Extend current HEAD coomit
@@ -26,15 +34,25 @@ Once in the Magit buffer, you can use the following keys:
 - `r`: Reword
 - `s`: Squash against current commit.
 
+# Magit commands from a file
+
+- `magit-file-popup` : Displays a popup where you can execute magit
+  commands on the current file.
+
 # Other Commands
 
 - `magit-push`: Push changes.
 
 # Visualise Log
 
-- `magit-log`: View
+- `magit-log`: View log for revs input by user.
 
 
 # User Manual
 
 http://magit.github.io/documentation.html
+
+
+# Resources
+
+- Magit presentation by John Wiegley https://www.youtube.com/watch?v=j-k-lkilbEs
