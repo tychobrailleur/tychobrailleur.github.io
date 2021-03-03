@@ -42,3 +42,8 @@ This lists processes _à la_ `ps`.
 
 - `pi` evals to `3.141592653589793`, `float-e` evals to
   `2.718281828459045`.
+
+# Display Time in different Time zones
+
+- `M-x world-clock`: List of the different time zones to display can
+  be customized with `world-clock-list`.
