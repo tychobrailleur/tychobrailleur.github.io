@@ -20,3 +20,5 @@ minibuffer.
 - `C-h C`: Coding system for the current buffer.
 
 - `C-h w command RET`: `where-is` Displays key bindings that calls `command`.
+- `M-x shortdoc-display-group`: Display documentation for a group of
+  functions, e.g. `string`, `buffer`, etc.  Use `TAB` to display.
