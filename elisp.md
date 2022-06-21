@@ -1,6 +1,6 @@
 ---
 title: Emacs Lisp
-layout:default
+layout: default
 ---
 # Numbers
 
